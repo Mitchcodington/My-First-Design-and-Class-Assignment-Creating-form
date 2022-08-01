@@ -24,6 +24,8 @@ body {
 #submit {
     background: rgb(255, 255, 3);
     font-weight: bold;
+    margin: auto;
+    display: flex;
 }
 
 
