@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+header {
+    text-align: center;
+    color: rgb(172, 255, 7);
+}
+
+body {
+    background-position: center;
+    color:rgb(255, 255, 7);
+    font-family: poppins;
+    font-style: initial;
+    padding: 50px;
+    margin: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    background: var(--color-darkblue);
+    background-image:  linear-gradient(215deg,rgba(75,113,179,0.8), rgb(6, 173, 61)),
+    url(survey.jpeg);
+    background-size: cover;
+    border: solid olive 25px;
+
+}
+#submit {
+    background: rgb(255, 255, 3);
+    font-weight: bold;
+}
+
+
+    

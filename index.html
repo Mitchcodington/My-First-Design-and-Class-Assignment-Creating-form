@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                SURVEY FROM MITCH'UB
+            </h1>
+            <p id="description"> Thank you for taking the time to help us improve the hub</p>
+        </header>
+        <form>
+            <!-- Name section -->
+            <div class="sections">
+                <p class="sections"><label for="name">NAME</label>
+                <input type="text " name="name" id="name" class="formControl" placeholder=" Enter your name" required>  
+        </p>
+            <!-- End of name section -->
+<!-- email section -->
+    <p class="section"><label for="email">Email</label>
+    <input type="text " name="email" id="email" class="formControl" placeholder=" Enter your email" required>  
+    </p>
+<!-- end of email section -->
+
+<!-- number section -->
+    <p class="sections"><label for="phone">Phone Number</label>
+    <input type="text " name="phone" id="phone" class="formControl" placeholder=" Enter your phone number" required>  
+</p>
+<!-- end of number section -->
+
+<!-- Address section -->
+    <p class="sections"><label for="address">Address
+        <span class="clue"></span>(optional)</span>
+    </label>
+    <input type="text " name="address" id="address" class="formControl" placeholder=" Enter your address" required>  
+    </p>
+<!-- End of address section -->
+</div>
+                
+
+<!-- Selection section -->
+<main>
+    <p> which option best describe your current role ?</p>
+
+    <select name="role" id="dropdown" class="formControl" required>
+    <option value="" disabled selected>Select current role</option>
+    <option value="student">Student</option>
+    <option value="teacher">Teacher</option>
+    <option value="intern">intern</option>
+    <option value="other">other</option>
+</select>
+</main>
+    
+    
+<!-- End of selection -->
+
+<!-- Radio buttons -->
+    <p>How did you get to know MitcH'ub</p>
+    <label>
+        <input type="radio" name="source" value="friend" class="inputRadio" checked>Friends
+    </label>
+    
+    <label>
+        <input type="radio" name="source" value="google" class="inputRadio">Google
+    </label>
+
+    <label>
+        <input type="radio" name="source" value="social-media" class="inputRadio" >Social media
+    </label>
+
+    <label>
+        <input type="radio" name="newspaper" value="friend" class="inputRadio">Newspaper
+    </label>
+
+    <label for="">
+        <input type="radio" name="source" value="other" class="inputRadio">Other
+    </label>
+
+    <!-- End of buttons -->
+
+    <!-- checkbox -->
+        <p>What would you like to see improved</p>
+        <label for="">
+            <input type="checkbox"
+            name="prefer" class="checkbox" value="back-end-dev">Back end developer
+
+        </label>
+
+        <label>
+            <input type="checkbox"
+            name="prefer" class="checkbox" value="back-end-dev">Back end developer
+
+        </label>
+
+        <label>
+            <input type="checkbox"
+            name="prefer" class="checkbox" value="front-end-dev">Front end developer
+
+        </label>
+
+        <label>
+            <input type="checkbox"
+            name="prefer" class="checkbox" value="app-dev">Andriod app developer
+
+        </label>
+
+        <label>
+            <input type="checkbox"
+            name="prefer" class="checkbox" value="soft-engeneering">Software Engineer
+
+        </label>
+
+        <label>
+            <input type="checkbox"
+            name="prefer" class="checkbox" value="other">other
+
+        </label>
+
+        <!-- End of checkbox -->
+
+        <!-- Text Area -->
+    
+            <p>Give us your feedback</p>
+            <textarea name="feedback"
+                id="feedback" cols="30" rows="5"
+                 class="textarea" placeholder="Enter your feedback here..."></textarea>
+
+
+<!-- End of text Area -->
+
+<!-- Submit button -->
+
+<button type="submit" id="submit">Submit</button>
+    
+    
+</body>
+</html>
